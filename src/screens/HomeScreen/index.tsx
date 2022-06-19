@@ -67,12 +67,7 @@ export function HomeScreen(props: NavigationScreenProps<"HomeScreem">) {
 
       <Slider title="Seus programas" data={DATA_PODCAST} />
       <Slider title="Tocadas recentemente" data={DATA_RECENTS} size="small" />
-      <Slider
-        title="Com base no que você ouviu recentemente"
-        data={DATA_FOR_ME}
-      />
-      <Slider title="O melhor de cada artista" data={DATA_THE_BEST_ARTIST} />
-      <Slider title="100% você" data={DATA_RECENTS} />
+      
     </ScrollView>
   );
 }

@@ -88,10 +88,10 @@ export function Routes() {
           <LinearGradient
             colors={["transparent", "#000"]}
             start={[0, 0]}
-            end={[0, 1]}
+            end={[0, 0.6]}
             style={{
               width: "100%",
-              height: getBottomSpace() + 150,
+              height:  150,
               position: "absolute",
               bottom: 0,
               left: 0,
